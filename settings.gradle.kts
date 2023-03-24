@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "UltimateToDo"
 include(":app")
+include(":task")
+include(":todo")
