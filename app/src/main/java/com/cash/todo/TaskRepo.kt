@@ -1,5 +1,6 @@
 package com.cash.todo
 
+// TODO: move to appropriate module
 interface TaskRepo {
   fun completeTask(id: String): Boolean
 
