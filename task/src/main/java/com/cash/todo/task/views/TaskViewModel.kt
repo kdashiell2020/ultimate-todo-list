@@ -1,6 +1,5 @@
-package com.cash.todo.views
+package com.cash.todo.task.views
 
-// TODO: move this to appropriate task module
 data class TaskViewModel(
   val taskId: String,
   val title: String,
