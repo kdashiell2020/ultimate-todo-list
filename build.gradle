@@ -3,3 +3,9 @@ plugins {
     id 'com.android.library' version '7.4.1' apply false
     id 'org.jetbrains.kotlin.android' version '1.8.10' apply false
 }
+//android {
+//    defaultConfig {
+//        minSdk 24
+//        multiDexEnabled = true
+//    }
+//}

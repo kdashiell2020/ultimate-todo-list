@@ -6,6 +6,11 @@ plugins {
 android {
     namespace 'com.todo.task'
     compileSdk 33
+
+    defaultConfig {
+        minSdk 24
+        multiDexEnabled true
+    }
 }
 
 dependencies {

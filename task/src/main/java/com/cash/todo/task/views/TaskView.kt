@@ -4,7 +4,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.material.Text
 
-// TODO: create a view test using paparazzi
 @Composable
 fun TaskView(model: TaskViewModel) {
   Text(

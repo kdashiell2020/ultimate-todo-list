@@ -2,13 +2,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'org.jetbrains.kotlin.android'
 
-dependencies {
-  api libs.coroutines.core
-
-  api projects.common.api
-  api libs.cashAndroidProtos
-}
-
 android {
   namespace 'com.cash.backend.api'
   compileSdk 33

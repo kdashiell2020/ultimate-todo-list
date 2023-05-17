@@ -16,4 +16,4 @@ rootProject.name = "My Todo List"
 include ':app'
 include ':task'
 include ':todo'
-include ':backend'
+include ':backend:api'
