@@ -6,9 +6,11 @@ import androidx.compose.material.Text
 
 @Composable
 fun TaskView(model: TaskViewModel) {
-  Text(
-    text = model.title,
-  )
+        // card background
+        // Button for completion
+    Text(
+      text = model.text,
+    )
 }
 
 @Preview
@@ -17,7 +19,7 @@ fun TaskViewPreview() {
   TaskView(
     TaskViewModel(
       taskId = "001",
-      title = "Make today count!",
+      text = "Make today count!",
       completed = false,
     )
   )

@@ -1,4 +1,4 @@
-package com.cash.backend.api
+package com.cash.backend
 
 interface TaskRepo {
   fun listOfTask(): List<Task>
