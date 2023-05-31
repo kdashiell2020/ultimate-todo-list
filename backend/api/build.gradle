@@ -6,3 +6,7 @@ android {
   namespace 'com.cash.backend.api'
   compileSdk 33
 }
+
+dependencies {
+  implementation project(path: ':task')
+}
