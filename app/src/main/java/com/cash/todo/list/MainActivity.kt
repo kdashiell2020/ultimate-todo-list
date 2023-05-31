@@ -55,8 +55,4 @@ fun TheUltimateTodoPreview() {
     }
 }
 
-data class ToDoViewModel(
-    val title: String,
-    val taskList: List<TaskViewModel>,
-)
 
