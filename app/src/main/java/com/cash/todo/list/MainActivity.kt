@@ -3,19 +3,22 @@ package com.cash.todo.list
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.cash.todo.task.views.TaskViewModel
+import androidx.lifecycle.lifecycleScope
+import app.cash.molecule.RecompositionClock
+import app.cash.molecule.launchMolecule
+import com.cash.todo.TodoListView
+import com.cash.todo.TodoPresenter
 import com.example.todolist.ui.theme.MyTodoListTheme
 
 
 class MainActivity : ComponentActivity() {
+    private val todoPresenter = TodoPresenter()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -24,35 +27,13 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    TheUltimateTodo("Mic Check! 1-2, 1-2!")
+                    val todoViewModel by lifecycleScope.launchMolecule(clock = RecompositionClock.Immediate) {
+                        todoPresenter.models()
+                    }.collectAsState()
+
+                    TodoListView(todoViewModel)
                 }
             }
         }
     }
 }
-
-@Composable
-fun TheUltimateTodo(name: String, modifier: Modifier = Modifier) {
-    Column {
-        Text(
-            text = "Hello $name!",
-            modifier = modifier
-        )
-
-        Text(
-            text = "Hello $name!",
-            modifier = modifier
-        )
-    }
-
-}
-
-@Preview(showBackground = true)
-@Composable
-fun TheUltimateTodoPreview() {
-    MyTodoListTheme {
-        TheUltimateTodo("Android")
-    }
-}
-
-
