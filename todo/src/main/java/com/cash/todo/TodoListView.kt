@@ -15,12 +15,6 @@ fun TodoListView(toDoViewModel: ToDoViewModel) {
 
         Text(toDoViewModel.title)
 
-//        Column {
-//            for (task in toDoViewModel.taskViewModel) {
-//                TaskView(task)
-//            }
-//        }
-
         LazyColumn {
             items(toDoViewModel.taskViewModel) { task ->
                 TaskView(task)

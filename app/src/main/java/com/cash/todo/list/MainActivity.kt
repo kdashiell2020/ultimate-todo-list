@@ -12,13 +12,14 @@ import androidx.compose.ui.Modifier
 import androidx.lifecycle.lifecycleScope
 import app.cash.molecule.RecompositionClock
 import app.cash.molecule.launchMolecule
+import com.cash.backend.RealTaskRepo
 import com.cash.todo.TodoListView
 import com.cash.todo.TodoPresenter
 import com.example.todolist.ui.theme.MyTodoListTheme
 
 
 class MainActivity : ComponentActivity() {
-    private val todoPresenter = TodoPresenter()
+    private val todoPresenter = TodoPresenter(repo = RealTaskRepo())
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -31,7 +32,7 @@ class MainActivity : ComponentActivity() {
                         todoPresenter.models()
                     }.collectAsState()
 
-                    TodoListView(todoViewModel)
+                    TodoListView(toDoViewModel = todoViewModel)
                 }
             }
         }

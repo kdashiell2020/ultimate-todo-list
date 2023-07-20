@@ -1,7 +1,9 @@
 package com.cash.backend
 
+import kotlinx.coroutines.flow.Flow
+
 interface TaskRepo {
-  fun listOfTask(): List<Task>
+  fun listOfTask(): Flow<List<Task>>
 }
 
 data class Task(

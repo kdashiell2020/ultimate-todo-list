@@ -1,32 +1,35 @@
 package com.cash.todo
 
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
+import com.cash.backend.Task
 import com.cash.backend.TaskRepo
 import com.cash.todo.task.views.TaskViewModel
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.flowOf
 
 class TodoPresenter(
-//    private val repo: TaskRepo,
+    private val repo: TaskRepo,
 ) {
 
     @Composable
     fun models(): ToDoViewModel {
+        val todoList by remember { repo.listOfTask() }.collectAsState(emptyList())
 
         return ToDoViewModel(
-            title = "The Todo List",
-            taskViewModel = listOf(
-                TaskViewModel(
-                    taskId = "001",
-                    text = "Our List",
-                    completed = false,
-                ),
-                TaskViewModel(
-                    taskId = "002",
-                    text = "Another one",
-                    completed = false,
-                ),
-            )
+            title = "My ToDo List",
+            taskViewModel = todoList.toViewModels()
         )
+    }
+
+    private fun List<Task>.toViewModels() : List<TaskViewModel> {
+        return map { task ->
+            TaskViewModel(
+                taskId = task.taskId,
+                text = task.text,
+                completed = task.completed
+            )
+        }
+
     }
 }
