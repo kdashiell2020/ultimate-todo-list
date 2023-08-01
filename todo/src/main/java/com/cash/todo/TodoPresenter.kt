@@ -30,6 +30,5 @@ class TodoPresenter(
                 completed = task.completed
             )
         }
-
     }
 }

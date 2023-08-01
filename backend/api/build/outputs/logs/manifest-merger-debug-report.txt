@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml:2:13-83
-INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml:2:13-83
-INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml:2:13-83
+ADDED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml:2:13-83
+INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml:2:13-83
+INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml:2:13-83
 	package
-		INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml
-		ADDED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml:2:13-83
-		INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml
+		INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml
+		ADDED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml:2:13-83
+		INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml
 	xmlns:android
-		ADDED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml:2:23-81
+		ADDED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml:2:23-81
 uses-sdk
-INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml reason: use-sdk injection requested
-INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml
-INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml
-INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml
-INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml
+INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml reason: use-sdk injection requested
+INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml
+INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml
+INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml
+INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml
 	android:targetSdkVersion
-		INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml
-		ADDED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml
-		INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml
+		INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml
+		ADDED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml
+		INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml
 	android:minSdkVersion
-		INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml
-		ADDED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml
-		INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml
+		INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml
+		ADDED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml
+		INJECTED from /Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml

@@ -3,6 +3,6 @@
 3    package="com.cash.backend.api" >
 4
 5    <uses-sdk android:minSdkVersion="1" />
-5-->/Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest9954708669592306253.xml
+5-->/Users/keefe/AndroidStudioProjects/MyTodoList/backend/api/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest8175986893720644726.xml
 6
 7</manifest>

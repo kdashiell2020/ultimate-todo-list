@@ -12,7 +12,6 @@ import com.cash.todo.task.views.TaskViewModel
 @Composable
 fun TodoListView(toDoViewModel: ToDoViewModel) {
     Column {
-
         Text(toDoViewModel.title)
 
         LazyColumn {
