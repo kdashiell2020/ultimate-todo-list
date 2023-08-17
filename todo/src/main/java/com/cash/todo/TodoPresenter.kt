@@ -7,6 +7,8 @@ import androidx.compose.runtime.remember
 import com.cash.backend.Task
 import com.cash.backend.TaskRepo
 import com.cash.todo.task.views.TaskViewModel
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flowOf
 
 class TodoPresenter(
     private val repo: TaskRepo,
@@ -22,7 +24,7 @@ class TodoPresenter(
         )
     }
 
-    private fun List<Task>.toViewModels() : List<TaskViewModel> {
+    private fun List<Task>.toViewModels(): List<TaskViewModel> {
         return map { task ->
             TaskViewModel(
                 taskId = task.taskId,
